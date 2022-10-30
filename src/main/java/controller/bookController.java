@@ -1,4 +1,4 @@
-package packages.controllers;
+package controller;
 
 import java.util.List;
 
@@ -13,8 +13,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import packages.Entity.Author;
-import packages.Entity.Book;
+import entity.Author;
+import entity.Book;
+import service.AuthorService;
+import service.BookService;
 
 @Controller
 public class bookController {

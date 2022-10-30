@@ -1,4 +1,4 @@
-package packages.controllers;
+package controller;
 
 import java.util.List;
 
@@ -7,7 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import packages.Entity.Book;
+import entity.Book;
+import service.BookService;
 
 @Controller
 public class IndexController {

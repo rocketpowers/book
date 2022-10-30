@@ -1,8 +1,8 @@
-package packages.repositories;
+package repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import packages.Entity.Author;
+import entity.Author;
 
 public interface AuthorRepository extends CrudRepository<Author, Long>{
 	
